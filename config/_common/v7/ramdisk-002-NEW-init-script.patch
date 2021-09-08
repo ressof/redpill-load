@@ -1,6 +1,6 @@
 --- a/linuxrc.syno.impl
 +++ b/linuxrc.syno.impl
-@@ -138,6 +140,7 @@ fi
+@@ -138,6 +138,7 @@ fi
  # insert basic USB modules for detect f401/FDT
  echo "Insert basic USB modules..."
  SYNOLoadModules $USB_MODULES
@@ -8,7 +8,7 @@
  
  # insert Etron USB3.0 drivers
  
-@@ -252,7 +255,7 @@ if [ "x" != "x`/bin/get_key_value /etc.d
+@@ -252,7 +253,7 @@ if [ "x" != "x`/bin/get_key_value /etc.d
  fi
  if [ "$UniqueRD" = "kvmx64" -o \
  		"$UniqueRD" = "nextkvmx64" -o \

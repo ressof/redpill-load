@@ -27,7 +27,7 @@
     "ramdisk": [
       "@@@COMMON@@@/ramdisk-001-disable-root-pwd.patch",
       "@@@COMMON@@@/v7/ramdisk-002-OLD-init-script.patch",
-      "@@@COMMON@@@/v7/ramdisk-003-post-init-script.patch"
+      "@@@COMMON@@@/v7/ramdisk-003-OLD-post-init-script.patch"
     ]
   },
   "synoinfo": {
